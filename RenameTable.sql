@@ -1,8 +1,8 @@
 -- Rename table
-EXEC sp_rename 'Employees', 'Users';
+EXEC sp_rename 'Users', 'Employees';
 
 SELECT *
-FROM Users;
+FROM Employees;
 
 -- Delete table
-DROP TABLE Users;
+DROP TABLE Employees;

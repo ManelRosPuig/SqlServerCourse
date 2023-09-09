@@ -7,5 +7,9 @@ DROP DATABASE IF EXISTS test2;
 SELECT *
 FROM sys.databases;
 
+-- See all the created tables.
+SELECT *
+FROM sys.tables;
+
 -- Rename database
 ALTER DATABASE test MODIFY NAME = main;

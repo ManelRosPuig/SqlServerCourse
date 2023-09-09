@@ -1,0 +1,5 @@
+
+USE test;
+
+CREATE DATABASE test2;
+DROP DATABASE test2;

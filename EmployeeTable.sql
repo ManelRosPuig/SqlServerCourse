@@ -8,3 +8,6 @@ CREATE TABLE Employees (
 	salary DECIMAL(18,2),
 	active CHAR(3)
 );
+
+-- See information about one table.
+EXEC sp_help employees;

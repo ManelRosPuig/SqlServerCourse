@@ -26,3 +26,6 @@ INSERT INTO Employees VALUES(
 
 SELECT *
 FROM Employees;
+
+SELECT name, surname
+FROM Employees;

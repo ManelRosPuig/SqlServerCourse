@@ -1,4 +1,4 @@
-USE test;
+USE main;
 
 CREATE DATABASE test2;
 DROP DATABASE IF EXISTS test2;
